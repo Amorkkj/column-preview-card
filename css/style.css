@@ -12,8 +12,8 @@
 }
 
 .teste {
-    width: 80%;
-    height: 50%;
+    width: 70%;
+    height: 60%;
     display: flex;
     border-radius: 10px;
     overflow: hidden;
@@ -41,6 +41,7 @@ a {
     border: 2px solid hsla(0, 0%, 100%, 0.75);
     border-radius: 25px;
     width: 60%;
+    height: 80%;
     color: hsl(0, 0%, 95%);
     font-family: 'Lexend Deca';
     transition: .5s;

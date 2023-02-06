@@ -1,0 +1,81 @@
+
+.container {
+    width: 1440px;
+    height: 100vh;
+
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teste {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.car-card {
+    padding: 50px 50px;
+    display: grid;
+    grid-template-rows: 10% 20% auto 10%;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+a {
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 25px;
+    width: 60%;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca';
+    transition: .5s;
+}
+
+.sedan a:hover {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+}
+
+
+.suv a:hover {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury a:hover {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+
+
+.title {
+
+    display: flex;
+    align-items: center;
+    font-family: 'Big Shoulders Display';
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Lexend Deca';
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 20px;
+    word-spacing: 2px;
+}
